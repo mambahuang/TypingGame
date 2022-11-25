@@ -1,0 +1,5 @@
+playername:Cliff
+playtime:60s
+entered words per min:17
+correct words per min:17
+accuracy:100%

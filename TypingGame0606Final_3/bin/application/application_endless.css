@@ -1,0 +1,88 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+    -fx-background-color:#000000;
+}
+#resumeB{
+    -fx-background-image:url("../resume.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#playAgainB{
+    -fx-background-image:url("../retry.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#pauseB{
+    -fx-background-image:url("../pause.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#endlessMode{
+    -fx-font-family:"Ink Free";
+    -fx-text-fill:#ffffff;
+    -fx-font-size:32px;
+    -fx-alignment:center;
+}
+#wordT{
+    -fx-fill:#ffffff;
+    -fx-font-size:25px;
+    -fx-alignment:center;
+}
+#nextWordT{
+    -fx-fill:#6f7477;
+    -fx-font-size:25px;
+    -fx-alignment:center;
+}
+#nNextWordT{
+    -fx-fill:#3c3d3e;
+    -fx-font-size:25px;
+    -fx-alignment:center;
+}
+#second{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-text-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#correct{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-text-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#accuracy{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-text-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#rectangle1{
+    -fx-fill:#ffffff;
+}
+#rectangle2{
+    -fx-fill:#ffffff;
+}
+#rectangle3{
+    -fx-fill:#ffffff;
+}
+#secondsT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-font-size:15px;
+}
+#wordsPerMinT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-font-size:15px;
+}
+#accuracyT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-font-size:15px;
+}

@@ -1,0 +1,115 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+    -fx-background-image:url("../loginBackground.png");
+}
+#loginB{
+    -fx-padding:5 13 13 13;
+    -fx-background-insets:0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius:8;
+    -fx-background-color:
+    linear-gradient(from 0% 93% to 0% 100%,#a34313 0%,#903b12 100%),
+    #9d4024,
+    #d86e3a,
+    radial-gradient(center 50% 50%,radius 100%, #d86e3a, #c54e2c);
+    -fx-effect:dropshadow(gaussian,rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight:900;
+    -fx-font-size:1.1em;
+    -fx-font-family:"Papyrus";
+    -fx-text-fill:#ffffff;
+    
+}
+#loginB:hover {
+    -fx-background-color:
+	    linear-gradient(from 0% 93% to 0% 100%,#a34313 0%,#903b12 100%),
+	    #9d4024,
+	    #d86e3a,
+	    radial-gradient(center 50% 50%,radius 100%, #d86e3a, #c54e2c);
+}
+#loginB:pressed {
+    -fx-padding:7 13 11 13;
+    -fx-background-insets:2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+#registerB{
+    -fx-padding:4 10 10 10;
+    -fx-background-insets:0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius:4;
+    -fx-background-color:#62666c;
+    -fx-effect:dropshadow(gaussian,rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight:900;
+    -fx-font-size:1.1em;
+    -fx-font-family:"Papyrus";
+    -fx-text-fill:#ffffff;
+}
+#registerB:pressed {
+    -fx-padding:6 10 8 10;
+    -fx-background-insets:2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+#submitB{
+    -fx-padding:4 10 10 10;
+    -fx-background-insets:0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius:4;
+    -fx-background-color:#62666c;
+    -fx-effect:dropshadow(gaussian,rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight:900;
+    -fx-font-size:1.1em;
+    -fx-font-family:"Papyrus";
+    -fx-text-fill:#ffffff;
+}
+#submitB:pressed {
+    -fx-padding:6 10 8 10;
+    -fx-background-insets:2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+#backB{
+    -fx-padding:4 10 10 10;
+    -fx-background-insets:0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius:4;
+    -fx-background-color:#62666c;
+    -fx-effect:dropshadow(gaussian,rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight:900;
+    -fx-font-size:1.1em;
+    -fx-font-family:"Papyrus";
+    -fx-text-fill:#ffffff;
+}
+#backB:pressed {
+    -fx-padding:6 10 8 10;
+    -fx-background-insets:2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+#typingGame{
+    -fx-text-fill:#ffffff;
+    -fx-font-weight:900;
+    -fx-font-family:"chiller";
+    -fx-alignment:center;
+    -fx-font-size:50px;
+    -fx-effect:dropshadow(gaussian,#510118,3,1,0,1);
+}
+#usernameNotice{
+    -fx-text-fill:#a9a9a9;
+}
+#name{
+    -fx-text-fill:#ffffff;
+    -fx-font-family:"Bradley Hand ITC";
+    -fx-alignment:center;
+    -fx-font-weight:900;
+    -fx-font-size:20px;
+}
+#password{
+    -fx-text-fill:#ffffff;
+    -fx-font-family:"Bradley Hand ITC";
+    -fx-alignment:center;
+    -fx-font-weight:900;
+    -fx-font-size:20px;
+}
+#passwordCheck{
+    -fx-text-fill:#ffffff;
+    -fx-font-family:"Bradley Hand ITC";
+    -fx-alignment:center;
+    -fx-font-weight:900;
+    -fx-font-size:20px;
+}
+#haveNoAccount{
+    -fx-text-fill:#ffffff;
+    -fx-font-family:"Bradley Hand ITC";
+    -fx-alignment:center;
+    -fx-font-weight:900;
+    -fx-font-size:20px;
+}

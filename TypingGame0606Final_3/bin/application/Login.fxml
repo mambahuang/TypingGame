@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginRegisterController">
+   <children>
+      <Button fx:id="loginB" layoutX="277.0" layoutY="232.0" mnemonicParsing="false" onAction="#Login" text="Login" />
+      <Label fx:id="name" layoutX="78.0" layoutY="139.0" prefHeight="33.0" prefWidth="140.0" text="Username :" />
+      <TextField fx:id="usernameTF" layoutX="221.0" layoutY="144.0" />
+      <Label fx:id="typingGame" layoutY="44.0" prefHeight="62.0" prefWidth="600.0" text="Typing Game" />
+      <Label fx:id="password" layoutX="80.0" layoutY="184.0" prefHeight="33.0" prefWidth="140.0" text="Password :" />
+      <TextField fx:id="passwordTF" layoutX="221.0" layoutY="188.0" />
+      <Label fx:id="haveNoAccount" layoutX="53.0" layoutY="300.0" prefHeight="25.0" prefWidth="277.0" text="Have not had an account?" />
+      <Button fx:id="registerB" layoutX="325.0" layoutY="300.0" mnemonicParsing="false" onAction="#Register" text="Register" />
+      <Label fx:id="message" layoutX="388.0" layoutY="189.0" prefHeight="23.0" prefWidth="183.0" text="Label" textFill="RED" />
+      <Button fx:id="submitB" layoutX="222.0" layoutY="305.0" mnemonicParsing="false" onAction="#Submit" text="Submit" />
+      <Button fx:id="backB" layoutX="335.0" layoutY="305.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Label fx:id="passwordCheck" layoutX="26.0" layoutY="232.0" prefHeight="25.0" prefWidth="196.0" text="Password check :" visible="false" />
+      <TextField fx:id="passwordCheckTF" layoutX="221.0" layoutY="232.0" visible="false" />
+      <Label fx:id="usernameNotice" layoutX="192.0" layoutY="112.0" prefHeight="25.0" prefWidth="208.0" text="Username should be in 1~12 words." />
+   </children>
+</AnchorPane>

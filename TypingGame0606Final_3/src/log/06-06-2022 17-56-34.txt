@@ -1,0 +1,5 @@
+playername:curry
+playtime:14s
+entered words per min:4
+correct words per min:4
+accuracy:100%

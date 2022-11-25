@@ -1,0 +1,5 @@
+playername:kk
+playtime:60s
+entered words per min:5
+correct words per min:3
+accuracy:60%

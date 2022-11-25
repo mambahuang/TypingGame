@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LeaderBoardController">
+   <children>
+      <TableView fx:id="table" prefHeight="370.0" prefWidth="600.0" AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="Rank" editable="false" prefWidth="100.0" resizable="false" text="Rank" />
+          <TableColumn fx:id="PlayerName" editable="false" prefWidth="200.0" resizable="false" sortable="false" text="Player Name" />
+            <TableColumn fx:id="PlayTime" editable="false" prefWidth="100.0" resizable="false" text="Play Time(s)" />
+            <TableColumn fx:id="EnteredWordsPerMin" editable="false" prefWidth="100.0" resizable="false" text="Words Per Min" />
+            <TableColumn fx:id="Accuracy" editable="false" prefWidth="100.0" resizable="false" text="Accuracy(%)" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="571.0" layoutY="421.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="541.0" layoutY="421.0" onMouseClicked="#clickLastPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/restart_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

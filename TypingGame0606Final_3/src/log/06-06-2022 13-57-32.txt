@@ -1,0 +1,5 @@
+playername:Kobe
+playtime:12s
+entered words per min:10
+correct words per min:10
+accuracy:100%

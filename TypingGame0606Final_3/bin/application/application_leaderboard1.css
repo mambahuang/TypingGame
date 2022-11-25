@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+    -fx-background-color:#000000;
+}
+.table-view{
+    -fx-font-family:"Ink Free";
+}
+.table-view .column-header {
+    -fx-background-color: #a1aab4;
+    -fx-font-family:"Ink Free";
+    -fx-font-weight:900;
+    -fx-font-size:15px;
+}

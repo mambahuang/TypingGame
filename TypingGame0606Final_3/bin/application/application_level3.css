@@ -1,0 +1,97 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+    -fx-background-color:#000000;
+}
+#resumeB{
+    -fx-background-image:url("../resume.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#playAgainB{
+    -fx-background-image:url("../retry.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#pauseB{
+    -fx-background-image:url("../pause.png");
+    -fx-background-size:70px;
+    -fx-background-color:#000000;
+    -fx-alignment:center;
+    -fx-background-position:center;
+}
+#levelThree{
+    -fx-font-family:"Ink Free";
+    -fx-fill:#ffffff;
+    -fx-font-size:32px;
+    -fx-text-alignment:center;
+}
+#wordT{
+    -fx-fill:#ffffff;
+    -fx-font-size:25px;
+    -fx-alignment:center;
+}
+#nextWordT{
+    -fx-fill:#6f7477;
+    -fx-font-size:25px;
+    -fx-alignment:center;
+}
+#second{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#correct{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#accuracy{
+    -fx-fill:#ffffff;
+    -fx-font-size:12px;
+    -fx-alignment:center;
+    -fx-font-family:"Segoe Print";
+}
+#rectangle1{
+    -fx-fill:#a10000;
+}
+#rectangle2{
+    -fx-fill:#a10000;
+}
+#rectangle3{
+    -fx-fill:#a10000;
+}
+#secondsT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-fill:#ffffff;
+}
+#wordsPerMinT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-fill:#ffffff;
+}
+#accuracyT{
+    -fx-font-family:"Segoe Print";
+    -fx-text-alignment:center;
+    -fx-fill:#ffffff;
+}
+#startB {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+#myChoiceBox{
+    -fx-font-family:"Segoe Print";
+    -fx-background-color:#ffffff;
+    -fx-mark-color:#d56938;
+ }
+ #myChoiceBox .menu-item:focused{
+     -fx-background-color:#ffd696;
+ }

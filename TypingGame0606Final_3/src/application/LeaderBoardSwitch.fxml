@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LeaderBoardSwitchController">
+   <children>
+      <Button fx:id="level2" layoutX="190.0" layoutY="186.0" mnemonicParsing="false" onAction="#Lv2" prefHeight="120.0" prefWidth="110.0" text="Level 2" />
+      <Button fx:id="level1" layoutX="80.0" layoutY="186.0" mnemonicParsing="false" onAction="#Lv1" prefHeight="120.0" prefWidth="110.0" text="Level 1" />
+      <Button fx:id="level3" layoutX="301.0" layoutY="186.0" mnemonicParsing="false" onAction="#Lv3" prefHeight="120.0" prefWidth="110.0" text="Level 3" />
+      <Button fx:id="endless" layoutX="412.0" layoutY="186.0" mnemonicParsing="false" onAction="#EndlessMode" prefHeight="120.0" prefWidth="110.0" text="Endless Mode" />
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="532.0" layoutY="347.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="1.0">
+         <image>
+            <Image url="@../../image/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="blood" fitHeight="222.0" fitWidth="361.0" layoutX="190.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/110-2/程式設計(二)/專題圖片/blood7.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="selectTheMode" layoutX="162.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the Mode" textAlignment="CENTER" wrappingWidth="276.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

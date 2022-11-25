@@ -1,0 +1,5 @@
+playername:joan
+playtime:60s
+entered words per min:3
+correct words per min:2
+accuracy:67%
